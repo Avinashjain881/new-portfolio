@@ -37,3 +37,11 @@ function deletingEffect() {
 };
 
 typingEffect();
+(function(document) {
+	var bars = [].slice.call(document.querySelectorAll('.bar-inner'));
+	bars.map(function(bar, index) {
+	  setTimeout(function() {
+		  bar.style.width = bar.dataset.percent;
+	  }, index * 1000);
+	});
+  })(document)
