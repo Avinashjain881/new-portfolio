@@ -319,3 +319,50 @@ right: 2.5%;
 .statistics{
   margin-top:25px;
 }
+.grid-section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 15%;
+    margin-left: 18%;
+}
+.one-section{
+  flex: 6;
+}
+.two-section{
+    flex: 6;
+  }
+  .partion{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      padding-bottom: 30px;
+      padding-right: 20px;
+      
+  }
+  .one-part{
+    box-shadow: 0 0 20px rgba(0,0,0,.1);
+      height: 180px;
+      flex: 3;
+      text-align: left;
+      padding-left: 1%;
+      padding-right: 1%;
+      margin-right: 25px;
+  }
+  .two-part{
+    box-shadow: 0 0 20px rgba(0,0,0,.1);
+    flex: 3;
+    padding-left: 1%;
+    padding-right: 1%;
+    text-align: left;
+    margin-right: 25px;
+}
+
+.three-part{
+    box-shadow: 0 0 20px rgba(0,0,0,.1);
+    flex: 3;
+    text-align: left;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
